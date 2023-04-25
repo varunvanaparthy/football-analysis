@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.415);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    height: 7rem;
+}
+
+
+nav ul {
+    padding-top: 1.5rem;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 300;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+nav li {
+    position: relative;
+    border-radius: 5px;
+}
+
+nav li:hover {
+    background-color: #d48181;
+}
+
+nav li.active {
+    background-color: #9d9595;
+
+}
